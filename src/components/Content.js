@@ -1,21 +1,11 @@
-import React,{useState} from 'react'
+import React from 'react'
 import './Content.css';
 import paypal from '../assets/paypal.svg'
 import visa from '../assets/visa.svg'
 import mastercard from '../assets/mastercard.svg'
 
 const Content = () => {
-    const [name, setName] = useState("");
-    const [title, setTitle] = useState("");
-    const [Email, setEmail] = useState("");
-    const [Password, setPassword] = useState("");
-    const [pmethod, setPmethod] = useState("");
-    const [cardHolderName, setCardHoldername] = useState("");
-    const [exp, setExp] = useState("");
-    const [cvv, setCvv] = useState("");
-    const [loading, setLoading] = useState(false)
-    const [error, setError] = useState("")
-    
+
     
     return (
         <div className="container-fluid my-5" style={{height:"100%"}} >
