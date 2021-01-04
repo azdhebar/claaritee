@@ -1,0 +1,40 @@
+.header{
+ font: bold;
+}
+
+.inputStyle{
+    border-radius: 10px;
+    height: 46px;
+  
+  
+    padding-right: 30px;
+}
+
+
+.secondTitle{
+    
+    border-bottom: solid 2px white;
+    width:130px
+}
+
+.colorBg{
+    background-color: #08152E;
+}
+
+.paddingRight{
+    border-right: solid 1px  white;
+}
+
+input[type="radio"]{
+   border-color:solid 1px  blue;
+   background-color:black;
+   
+}
+.smallInput{
+    width: 100%;
+    margin-left: 0px;
+}
+
+.secondPart{
+    margin-top: 10%;
+}
