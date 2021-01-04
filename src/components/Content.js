@@ -17,13 +17,8 @@ const Content = () => {
         
         <div className="col-xl-4 col-lg-6  colorBg paddingRight ">       
                     <div className="row m-4">
-                      <div className="col-5">
                         <label className="display-5 align-top mb-2">Sign Up</label>
-                        </div>
-                        <div className="col-7 col-lg-6 my-4" style={{fontSize:15 }}  >
-                        Already have an account? Signin
-                        </div>
-
+                    
                    
                 
                     <div className=" container p-4 " >
